@@ -32,9 +32,9 @@ function countDown() {
 function playSound(type) {
     let audio;
     if(type === "hit"){
-        audio = new Audio("../src/audios/hit.m4a");
+        audio = new Audio("../audios/hit.m4a");
     } else if(type === "miss"){
-        audio = new Audio("../src/audios/miss.m4a");
+        audio = new Audio("../audios/miss.m4a");
     }
     if(audio){
         audio.volume = 0.2;
